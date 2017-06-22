@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8322515D1EFB666400B6F7EC /* cloudsTransparency.png in Resources */ = {isa = PBXBuildFile; fileRef = 8322515C1EFB666400B6F7EC /* cloudsTransparency.png */; };
 		8398B4E01EFA1CF5002E6BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398B4DF1EFA1CF5002E6BBE /* main.m */; };
 		8398B4E31EFA1CF5002E6BBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398B4E21EFA1CF5002E6BBE /* AppDelegate.m */; };
 		8398B4E61EFA1CF5002E6BBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398B4E51EFA1CF5002E6BBE /* ViewController.m */; };
@@ -15,6 +16,13 @@
 		8398B4EE1EFA1CF5002E6BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8398B4EC1EFA1CF5002E6BBE /* LaunchScreen.storyboard */; };
 		8398B4F91EFA1CF5002E6BBE /* SceneKit_07Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398B4F81EFA1CF5002E6BBE /* SceneKit_07Tests.m */; };
 		8398B5041EFA1CF5002E6BBE /* SceneKit_07UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398B5031EFA1CF5002E6BBE /* SceneKit_07UITests.m */; };
+		8398B5131EFA1D27002E6BBE /* earth-diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8398B5121EFA1D27002E6BBE /* earth-diffuse.jpg */; };
+		8398B5151EFA2CA3002E6BBE /* earth-bump.png in Resources */ = {isa = PBXBuildFile; fileRef = 8398B5141EFA2CA3002E6BBE /* earth-bump.png */; };
+		8398B5171EFA3144002E6BBE /* earth-specular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8398B5161EFA3144002E6BBE /* earth-specular.jpg */; };
+		8398B5191EFA33E7002E6BBE /* earth-emissive-mini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8398B5181EFA33E7002E6BBE /* earth-emissive-mini.jpg */; };
+		8398B51B1EFA3476002E6BBE /* earth-emissive-mini2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8398B51A1EFA3476002E6BBE /* earth-emissive-mini2.jpg */; };
+		8398B51E1EFA4686002E6BBE /* sun-halo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8398B51C1EFA4686002E6BBE /* sun-halo.png */; };
+		8398B51F1EFA4686002E6BBE /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8398B51D1EFA4686002E6BBE /* sun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8322515C1EFB666400B6F7EC /* cloudsTransparency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudsTransparency.png; sourceTree = "<group>"; };
 		8398B4DB1EFA1CF5002E6BBE /* SceneKit-07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SceneKit-07.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8398B4DF1EFA1CF5002E6BBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8398B4E11EFA1CF5002E6BBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,13 @@
 		8398B4FF1EFA1CF5002E6BBE /* SceneKit-07UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-07UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8398B5031EFA1CF5002E6BBE /* SceneKit_07UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_07UITests.m; sourceTree = "<group>"; };
 		8398B5051EFA1CF5002E6BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8398B5121EFA1D27002E6BBE /* earth-diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-diffuse.jpg"; sourceTree = "<group>"; };
+		8398B5141EFA2CA3002E6BBE /* earth-bump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth-bump.png"; sourceTree = "<group>"; };
+		8398B5161EFA3144002E6BBE /* earth-specular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-specular.jpg"; sourceTree = "<group>"; };
+		8398B5181EFA33E7002E6BBE /* earth-emissive-mini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-emissive-mini.jpg"; sourceTree = "<group>"; };
+		8398B51A1EFA3476002E6BBE /* earth-emissive-mini2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-emissive-mini2.jpg"; sourceTree = "<group>"; };
+		8398B51C1EFA4686002E6BBE /* sun-halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun-halo.png"; sourceTree = "<group>"; };
+		8398B51D1EFA4686002E6BBE /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,7 @@
 		8398B4DE1EFA1CF5002E6BBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8398B5111EFA1D27002E6BBE /* image */,
 				8398B4DF1EFA1CF5002E6BBE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +155,21 @@
 				8398B5051EFA1CF5002E6BBE /* Info.plist */,
 			);
 			path = "SceneKit-07UITests";
+			sourceTree = "<group>";
+		};
+		8398B5111EFA1D27002E6BBE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8398B51C1EFA4686002E6BBE /* sun-halo.png */,
+				8398B51D1EFA4686002E6BBE /* sun.jpg */,
+				8398B5181EFA33E7002E6BBE /* earth-emissive-mini.jpg */,
+				8398B51A1EFA3476002E6BBE /* earth-emissive-mini2.jpg */,
+				8398B5141EFA2CA3002E6BBE /* earth-bump.png */,
+				8398B5121EFA1D27002E6BBE /* earth-diffuse.jpg */,
+				8398B5161EFA3144002E6BBE /* earth-specular.jpg */,
+				8322515C1EFB666400B6F7EC /* cloudsTransparency.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +278,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8398B51E1EFA4686002E6BBE /* sun-halo.png in Resources */,
+				8322515D1EFB666400B6F7EC /* cloudsTransparency.png in Resources */,
 				8398B4EE1EFA1CF5002E6BBE /* LaunchScreen.storyboard in Resources */,
+				8398B51F1EFA4686002E6BBE /* sun.jpg in Resources */,
+				8398B51B1EFA3476002E6BBE /* earth-emissive-mini2.jpg in Resources */,
 				8398B4EB1EFA1CF5002E6BBE /* Assets.xcassets in Resources */,
+				8398B5151EFA2CA3002E6BBE /* earth-bump.png in Resources */,
 				8398B4E91EFA1CF5002E6BBE /* Main.storyboard in Resources */,
+				8398B5191EFA33E7002E6BBE /* earth-emissive-mini.jpg in Resources */,
+				8398B5131EFA1D27002E6BBE /* earth-diffuse.jpg in Resources */,
+				8398B5171EFA3144002E6BBE /* earth-specular.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +547,7 @@
 				8398B50A1EFA1CF5002E6BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8398B50B1EFA1CF5002E6BBE /* Build configuration list for PBXNativeTarget "SceneKit-07Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +556,7 @@
 				8398B50D1EFA1CF5002E6BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8398B50E1EFA1CF5002E6BBE /* Build configuration list for PBXNativeTarget "SceneKit-07UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +565,7 @@
 				8398B5101EFA1CF5002E6BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
